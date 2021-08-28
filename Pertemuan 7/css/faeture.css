@@ -1,0 +1,77 @@
+body {
+    margin: 50px auto;
+    width: 700px;
+    height: 500px;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+header,section,footer,logo {
+    display: block;
+}
+    
+header {
+    height: 100px;
+    background-color: #6d6c6c;
+    text-align: center;
+}
+    
+logo{
+    float: left;
+    height: 80px;
+    width: 80px;
+    margin: 10px 10px 10px 50px;
+    border: 1px solid black;
+}
+    
+judul {
+    font-family: crackman;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    float: left;
+    margin: 50px 10px 10px 10px;
+}
+    
+section {
+    height: 350px;
+    background-color: #d6d3d3;
+    padding: 10px;
+}
+
+.card-button {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    width: 60px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.button {
+    padding: 5px;
+}
+
+.button:hover {
+    background-color: tomato;
+}
+    
+footer {
+    clear: both;
+    height: 20px;
+    background-color: #6d6c6c;
+    text-align: center;
+    color: white;
+}

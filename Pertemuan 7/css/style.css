@@ -1,0 +1,97 @@
+body {
+    font-family: sans-serif;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(123, 149, 225, 1) 100%
+    );
+}
+
+.content {
+    margin: 10%;
+    padding: 3rem 1rem 3rem 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+
+.content div img {
+    border-radius: 15px;
+}
+
+.signin-text {
+    font-weight: 600 !important;
+}
+
+.form-control {
+    display: block;
+    border-color: #1e90ef !important;
+}
+
+.form-control:focus {
+    border-color: #1e90ef;
+}
+
+.btn-class {
+    border-color: black;
+    color: white;
+}
+
+.btn-class:hover {
+    background-color: #004e8d;
+}
+
+#image {
+    margin-left: 3rem;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0, 0.4);
+}
+
+/* Moadl Content / Box */
+.modal-content {
+    background-color: #f6a9a9;
+    margin: 1% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: crimson;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#love {
+    color: crimson;
+}
+
+.error {
+    border: 1px solid #ff6c6c;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 18px;
+    background: #ff7272;
+    color: #fff;
+}

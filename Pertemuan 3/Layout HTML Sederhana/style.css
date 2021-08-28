@@ -1,0 +1,147 @@
+* {
+ box-sizing: border-box;
+}
+.row::after {
+ content: "";
+ clear: both;
+ display: block;
+}
+[class*="col-"] {
+ float: left;
+ padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+ width: 100%;
+}
+@media only screen and (min-width: 600px) {
+ /* For tablets: */
+ .col-m-1 {width: 8.33%;}
+ .col-m-2 {width: 16.66%;}
+ .col-m-3 {width: 25%;}
+ .col-m-4 {width: 33.33%;}
+ .col-m-5 {width: 41.66%;}
+ .col-m-6 {width: 50%;}
+ .col-m-7 {width: 58.33%;}
+ .col-m-8 {width: 66.66%;}
+ .col-m-9 {width: 75%;}
+ .col-m-10 {width: 83.33%;}
+ .col-m-11 {width: 91.66%;}
+ .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+ /* For desktop: */
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;} 
+ .col-12 {width: 100%;}
+}
+img {
+ width: 100%;
+ height: auto;
+}
+body {
+ background-color:white;
+ font-family: Tahoma,Geneva,sans-serif;
+}
+#wrap {
+ width:90%;
+ margin:auto;
+ background-color:white;
+ border-radius: 10px;
+ padding: 5px;
+ -moz-box-shadow: 0px 0px 10px #000;
+ -webkit-box-shadow: 0px 0px 10px #000;
+ box-shadow: 0px 0px 10px #000;
+}
+#header{
+ background-color:#160d63;
+ width: 100%;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-image:url('header.jpg');
+ height:150px;
+}
+#header h1{
+ color:#00125b;
+ padding:40px 0px 0px 20px;
+ text-shadow:#fff 1px 1px 3px;
+ float: left;
+ color: #fff;
+ font-family: 'Exo', sans-serif;
+ font-size: 35px;
+ font-weight: 200;
+}
+#header img {
+ padding:40px 0px 0px 20px;
+ float: left;
+}
+#silebar {
+ width:100%;
+ float:left;
+ border-right:1px solid #bababa;
+ border-bottom:1px solid #bababa; 
+ border-left:1px solid #bababa;
+ border-radius: 10px;
+}
+#judul_silebar{
+ padding:3px;
+ text-align:center;
+ font-weight:bold;
+ border-bottom:1px solid #bababa;
+ /* background-image:url('header.jpg'); */
+ background-color:rgb(99, 96, 96);
+ color:white;
+ border-radius:5px;
+}
+#isi_silebar ul{
+ list-style-type:none;
+ padding:0px;
+ margin:0px;
+}
+#silebar a{
+ display:block;
+ padding:5px;
+ border-bottom:0px solid #bababa;
+ text-decoration:none;
+ font-size: medium;
+ color:black;
+}
+#silebar a:hover{
+ color: #0786AB;
+}
+#konten{
+ padding:0px;
+ width:100%;
+ float:left;
+ font-size:11pt;
+ margin:5px;
+ border-right:1px solid #bababa;
+ border-bottom:1px solid #bababa;
+ border-top:1px solid #bababa;
+ border-left:1px solid #bababa;
+ border-radius: 10px;
+}
+#konten p {
+    text-indent: 15px;
+}
+#footer{
+ background-color:rgb(99, 96, 96);
+ height:90px;
+} 
+#footer #text{
+ color:#fff;
+ padding: 5px;
+ text-align:center;
+ font-size:11pt;
+ text-shadow:#000 1px 1px 2px;
+}

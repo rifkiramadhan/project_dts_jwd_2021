@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Logika</title>
+</head>
+<body>
+    <h1>Operator Logika</h1>
+    <hr>
+
+    <script>
+        var aku = 22;
+        var kamu = 15;
+
+        var benar = aku > kamu;
+        var salah = aku < kamu;
+
+        // Operator && (and)
+        var hasil = benar && salah;
+        document.write(`${benar} && ${salah} = ${hasil} <br/>`);
+
+        // Generator || (or)
+        var hasil = benar || salah;
+        document.write(`${benar} || ${salah} = ${hasil} <br/>`);
+
+        // Operator ! (not)
+        var hasil = !benar;
+        document.write(`!${benar} = ${hasil} <br/>`);
+    </script>
+</body>
+</html>

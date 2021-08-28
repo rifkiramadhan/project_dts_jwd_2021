@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm</title>
+</head>
+<body>
+    <h1>Confirm</h1>
+    <hr>
+
+    <script>
+        var ulangi = confirm("Apakah anda ingin mengulangi ?");
+        var counter = 0;
+
+        while (ulangi) {
+            counter++;
+            var bintang = "*".repeat(counter) + "<br>";
+            document.write(counter + ": " + bintang);
+            ulangi = confirm("Apakah anda ingin mengulangi ?");
+        }
+    </script>
+    
+</body>
+</html>

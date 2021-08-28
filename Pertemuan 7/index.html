@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- My Icon -->
+    <link rel="shortcut icon" href="img/feature-icon.png">
+
+    <title>Login</title>
+  </head>
+  <body>
+    <!-- Gambar -->
+    <div class="container">
+        <div class="row content">
+            <div class="col-md-6 mb-3">
+                <img src="img/jumbotron.jpg" id="image" width="80%" alt="Gambar">
+            </div>
+
+            <div class="col-md-6">
+                <h3 class="signin-text mb-3 text-center">Login Admin</h3>
+                <form action="feature/latihan.html" method="GET" class="form" name="myForm">
+                    <div class="form-group mb-3">
+                        <label for="email" class="mb-2 input-field">Email</label>
+                        <input type="text"maxlength="30" id="email" name="email" placeholder="Masukan Email" class="form-control" required />
+                    </div>
+
+                    <div class="form-group mb-3">
+                        <label for="email" class="mb-2 input-field">Password</label>
+                        <input type="password"maxlength="10" id="password" name="password" placeholder="Masukan Password" class="form-control" 
+                        required />
+                    </div>
+
+                    <div class="form-group form-check mb-3">
+                        <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox" />
+                        <label for="checkbox" class="form-check-label">Ingat Saya</label>
+                    </div>  
+                    <div class="error" style="display: none;"></div>
+                    <button class="btn btn-class btn-primary" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- My JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

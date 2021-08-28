@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form Pemesanan Makanan</title>
+
+    <link rel="stylesheet" href="../css/faeture.css" type="text/css" />
+    <link rel="shortcut icon" href="../img/feature-icon.png" />
+    <script type="text/javascript" src="../js/feature.js"></script>
+</head>
+
+<body>
+    <header>
+        <logo>
+            <img src="../img/feature-icon.png" height=80px width=80px>
+        </logo>
+
+        <judul>Form Pemesanan Berbasis JavaScript</judul>
+    </header>
+
+    <section>
+        <form name="pemesanan" action="#">
+        <table cellpadding=3 border=1>
+            <tr>
+                <th width=30>No.</th>
+                <th width=280>Makanan/Minuman</th>
+                <th width=120>Harga</th>
+                <th width=200>Jumlah Pesan</th>
+            </tr>
+
+            <tr>
+                <td> 1.</td>
+                <td>Bakso Istimewa</td>
+                <td>@ Rp. <input type="text" name="harga1" value="12000" size=5 readonly></td>
+                <td><center><input type="text" name="jumlah1" onchange="proses()" size=12 style="text-align:center"></center></td>
+            </tr>
+
+            <tr>
+                <td> 2.</td>
+                <td>Soto Spesial</td>
+                <td>@ Rp. <input type="text" name="harga2" value="10000" size=5 readonly></td>
+                <td><center><input type="text" name="jumlah2" onchange="proses()" size=12 style="text-align:center"></center></td>
+            </tr>
+
+            <tr>
+                <td> 3.</td>
+                <td>Mie Ayam Super</td>
+                <td>@ Rp. <input type="text" name="harga3" value="15000" size=5 readonly></td>
+                <td><center><input type="text" name="jumlah3" onchange="proses()" size=12 style="text-align:center"></center></td>
+            </tr>
+
+            <tr>
+                <td> 4.</td>
+                <td>Es Degan</td>
+                <td>@ Rp. <input type="text" name="harga4" value="5000" size=5 readonly></td>
+                <td><center><input type="text" name="jumlah4" onchange="proses()" size=12 style="text-align:center"></center></td>
+            </tr>
+
+            <tr>
+                <td> 5.</td>
+                <td>Es Campur</td>
+                <td>@ Rp. <input type="text" name="harga5" value="7000" size=5 readonly></td>
+                <td><center><input type="text" name="jumlah5" onchange="proses()" size=12 style="text-align:center"></center></td>
+            </tr>
+
+            <tr>
+                <td colspan=3 align="right">JUMLAH TOTAL</td>
+                <td><center>Rp. <input type="text" name="total" size=8 style="text-align:center" readonly></center></td>
+            </td>
+
+            <tr>
+                <td colspan=3 align="right">DISKON</td>
+                <td><center>Rp. <input type="text" name="potongan" size=8 style="text-align:center" readonly></center></td>
+            </td>
+
+            <tr>
+                <td colspan=3 align="right">JUMLAH BAYAR</td>
+                <td><center>Rp. <input type="text" name="bayar" size=8 style="text-align:center" readonly></center></td>
+            </td>
+        </table>
+        
+        <br />
+        <div class="card-button">
+            <center><a class="button" href="../index.html">Keluar</a></center>
+            <center><input class="button" type="button" value="Batal" onclick="batal()" /></center>
+        </div>
+        </form>
+    </section>
+
+    <footer>&copy; Rifki Ramadhan</footer>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* Content */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: #293B5F;
+    padding: 25px;
+    margin-bottom: 15px;
+}
+
+a, .button {
+    width: 60px;
+    border: none;
+    background-color: #5089C6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover, .button:hover {
+    background-color: #548CA8;
+}
+
+a {
+    padding: 5px;
+    text-align: center;
+}
+
+/* Form */
+form {  
+    display: grid;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 50px;
+    margin-top: auto;
+    height: 50px;
+    margin-top: 15px;
+}
+  
+form label {
+    margin: 5px 10px 5px 0;
+}
+  
+form input {
+    vertical-align: bottom;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Table */
+.container {
+    margin: 5px;
+}
+
+table { 
+    width: 100%;
+    margin-top: 20px; 
+    border-collapse: collapse;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+    background: #eee; 
+}
+
+th { 
+    background: #47597E; 
+    color: #fff; 
+    font-weight: bold; 
+}
+
+td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+}

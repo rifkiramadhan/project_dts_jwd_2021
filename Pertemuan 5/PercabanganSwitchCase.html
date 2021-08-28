@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percabangan Switch / Case</title>
+</head>
+<body>
+    <h1>Percabangan Switch / Case</h1>
+    <hr>
+
+    <script>
+
+        var nilai = prompt('Masukkan nilai Anda: \n (cth: 90, 80, 70, 60, 50, 40, 30)');
+        var grade = "";
+
+        switch (false) {
+            case nilai < 90:
+                grade = "Selamat Anda Mendapat Grade A";
+                break;
+            case nilai < 80:
+                grade = "Selamat Anda Mendapat Grade B+";
+                break;
+            case nilai < 70:
+                grade = "Selamat Anda Mendapat Grade B";
+                break;
+            case nilai < 60:
+                grade = "Selamat Anda Mendapat Grade C+";
+                break;
+            case nilai < 50:
+                grade = "Selamat Anda Mendapat Grade C";
+                break;
+            case nilai < 40:
+                grade = "Selamat Anda Mendapat Grade D";
+                break;
+            case nilai < 30:
+                grade = "Selamat Anda Mendapat Grade E";
+                break;
+            default:
+            grade = "Selamat Anda Mendapat Grade F";
+                break;
+        }
+        document.write(grade);
+    </script>
+
+</body>
+</html>
