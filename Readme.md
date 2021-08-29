@@ -1,5 +1,9 @@
 # Tugas Pelatihan DTS VSGA Junior Web Developer 2021
 
+## Hosting aplikasi
+Tanggal : 29 Agustus 2021
+- [x] [Aplikasi Pendaftaran Siswa Peserta Digital Talent](https://pnj-jwd-rifram.000webhostapp.com/)
+
 ## Pelatihan Pertemuan Ke 1
 Tanggal : 02 Agustus 2021
 - [x] Membuat Flowchart Untuk Menghitung Luas Lingkaran & Menampilkannya
@@ -55,10 +59,10 @@ Tanggal : 24 Agustus 2021
 ## Pelatihan Pertemuan Ke 14
 Tanggal : 26 Agustus 2021
 - [x] Mempresentasikan Aplikasi CRUD PHP Data Barang Dengan Framework Bootsrap Versi 5 Serta Library Sweet Alert Yang Telah Dibuat
-- [x] Membuat Program Aplikasi Create dan Read Untuk Website Pendaftaran Siswa Peserta Digitalent Dengan Database MYSQL dan Framework Bootstrap Versi 5
+- [x] Membuat Program Aplikasi Create dan Read Untuk Website Pendaftaran Siswa Peserta Digitalent Dengan Database MySQL dan Framework Bootstrap Versi 5
 
 ## Pelatihan Pertemuan Ke 15
 Tanggal : 27 Agustus 2021
-- [x] Membuat Program Aplikasi Create dan Read Untuk Website Pendaftaran Siswa Peserta Digitalent Dengan Database MYSQL dan Framework Bootstrap Versi 5
+- [x] Membuat Program Aplikasi Create dan Read Untuk Website Pendaftaran Siswa Peserta Digitalent Dengan Database MySQL dan Framework Bootstrap Versi 5
 - [x] Mempresentasikan Hasil Hostingan Aplikasi Data Pendaftaran Siswa Dengan Database MySQL dan Framework Bootstrap Serta Library Sweet Alert Yang Pernah Dibuat
 
