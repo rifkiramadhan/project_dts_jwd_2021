@@ -48,7 +48,7 @@
     <title>Digitalent Online</title>
 
     <!-- My Icon -->
-    <link rel="shotcut icon" href="img/icon.png">
+    <link rel="shortcut icon"  href="img/kominfo.png" />
 
     <!-- My Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -250,7 +250,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
 </body>

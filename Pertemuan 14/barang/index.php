@@ -24,8 +24,13 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/admin.css">
 
+    <!-- My Jquery Data Tables CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.0/css/jquery.dataTables.min.css">
+
+    <!-- My Data Tables Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.0/css/dataTables.bootstrap5.min.css">
+    
     <!-- My Swalert -->
-    <link rel="stylesheet" href="dist/sweetalert2.min.css"> 
     <script src="swalert/sweetalert2.min.js"></script>
     <script src="swalert/sweetalert2.all.min.js"></script>
 
@@ -35,6 +40,13 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- My JQuery Data Tables JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.11.0/js/jquery.dataTables.min.js"></script>
+
+    <!-- My Data Tables Bootstrap JS -->
+    <script src="https://cdn.datatables.net/1.11.0/js/dataTables.bootstrap5.min.js"></script>
 
     <title>Data Barang</title>
   </head>
@@ -49,14 +61,10 @@
 
         <div class="icon mp-2 text-white">
             <h5>
-                <i class="bi bi-basket-fill m-3" data-bs-toggle="tooltip"
-                title="Keranjang Belanja"></i>
-                <i class="bi bi-messenger m-3" data-bs-toggle="tooltip"
-                title="Surat Masuk"></i> 
-                <i class="bi bi-bell-fill m-3" data-bs-toggle="tooltip"
-                title="Notifikasi"></i>
-                <i class="bi bi-box-arrow-right m-3" data-bs-toggle="tooltip"
-                title="Keluar"></i>
+                <i class="bi bi-basket-fill m-3" title="Keranjang Belanja"></i>
+                <i class="bi bi-messenger m-3" title="Surat Masuk"></i> 
+                <i class="bi bi-bell-fill m-3" title="Notifikasi"></i>
+                <i class="bi bi-box-arrow-right m-3" title="Keluar"></i>
              </h5>
         </div>
     </div>
@@ -77,8 +85,9 @@
           <div class="col-md-10 p-5 pt-2 mt-3">
             <h3><i class="bi bi-box-seam"></i> DAFTAR BARANG</h3><hr>
             <a class="btn btn-primary mb-3" href="./tambah-barang.php"><i class="bi bi-bookmark-plus"></i> Tambah Barang</a>
+            <a class="btn btn-secondary mb-3" target="_blank" href="./print/print.php"><i class="bi bi-printer-fill"></i> Cetak</a>
             <div class="table-responsive-sm">
-                <table class="table table-dark table-hover" border="1">
+                <table id="example" class="table table-dark table-hover" border="1">
                     <thead>
                         <tr>
                             <th scope="col">Nama Barang</th>
@@ -91,9 +100,9 @@
                         </tr>
                     </thead>
         
+                    <tbody>
                     <?php 
                     while ($data = mysqli_fetch_array($query)) {
-                        echo "<tbody>";
                         echo "<tr>";
                         echo "<td>".$data['nama']."</td>";
                         echo "<td>".$data['kategori']."</td>";
@@ -103,9 +112,9 @@
                         echo '<td><a class="btn btn-warning" href="update-barang.php?id='.$data['id'].'"><i class="bi bi-bookmark-dash-fill"></i> Ubah</a></td>';
                         echo '<td><a class="btn btn-danger" href="#" onclick="confirmDeleteBarang('.$data['id'].')"><i class="bi bi-bookmark-x-fill"></i> Hapus</a></td>';
                         echo "</tr>";
-                        echo "</tbody>";
                     }
                     ?>
+                    </tbody>
                 </table>
             </div>
           </div>
@@ -169,13 +178,12 @@
     <!-- My JS -->
     <script src="js/script.js"></script>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" 
-    crossorigin="anonymous"></script>
+    <!-- My Data Tables JS -->
+    <script src="js/data-tables.js"></script>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
   </body>
 </html>

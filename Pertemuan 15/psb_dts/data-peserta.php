@@ -23,29 +23,26 @@
     <title>Digitalent Online</title>
 
     <!-- My Icon -->
-    <link rel="shotcut icon" href="img/icon.png">
+    <link rel="shortcut icon"  href="img/kominfo.png" />
+    
+    <!-- My Jquery Data Tables CSS -->
+    <!-- <link rel="stylesheet" href="css/jquery.dataTables.min.css"> -->
 
-    <!-- My JQuery CSS -->
-    <link rel="stylesheet" href="css/jquery.dataTables.min.css">
-
-    <!-- My Bootstrap Data Tables CSS -->
+    <!-- My Data Tables Bootstrap CSS -->
     <link rel="stylesheet" href="css/dataTables.bootstrap5.min.css">
-
-    <!-- My Bootstrap Icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
     <!-- My Swalert -->
     <link rel="stylesheet" href="swalert/sweetalert2.min.css"> 
     <script src="swalert/sweetalert2.min.js"></script>
     <script src="swalert/sweetalert2.all.min.js"></script>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
-    <!-- My Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
 <body>
     
@@ -66,8 +63,7 @@
     
     <!-- Bagian content -->
     <section class="mt-5 mb-5 pt-5">
-        <h2 class="text-center">Data Peserta</h2>
-
+        <h2 class="text-center pt-5">Data Peserta</h2>
         <div class="container table-responsive">
             <a href="cetak-peserta.php" target="_blank" class="btn btn-primary mb-2"><i class="bi bi-printer-fill"></i> Print</a>
             <table id="example" class="table table-borderless table-dark table-striped table-hover" border="1">
@@ -160,9 +156,12 @@
         <p>Rifki Ramadhan Copyright &copy; 2021</p>
     </div>
 
-    <!-- My JQuery -->
+    <!-- My JQuery Data Tables JS -->
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/jquery.dataTables.min.js"></script>
+
+    <!-- My Data Tables Bootstrap JS -->
+    <script src="js/dataTables.bootstrap5.min.js"></script>
 
     <!-- My Data Tables -->
     <script src="js/data-tables.js"></script>
@@ -171,7 +170,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

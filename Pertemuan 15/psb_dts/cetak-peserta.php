@@ -12,7 +12,7 @@
     <title>Cetak Peserta</title>
 
     <!-- My Icon -->
-    <link rel="shotcut icon" href="img/icon.png">
+    <link rel="shortcut icon"  href="img/kominfo.png" />
     
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -23,9 +23,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="img/dts-kominfo.png" alt="" width="100px" class="d-inline-block align-text-top">
+            </a>
+            <form class="d-flex">
+                <img src="img/dts-vsga.png" alt="" width="100px" class="d-inline-block align-text-top">
+            </form>
+        </div>
+    </nav>
     
-    <h2 class="text-center mt-5 mb-5">Laporan Calon Peserta</h2>
-    <table class="table table-borderless table-striped table-light mb-5" border="0">
+    <h2 class="text-center">Laporan Calon Peserta</h2>
+    <table class="table table-borderless table-striped table-light mt-5 mb-5" border="0">
                 <thead>
                     <tr>
                         <th>No</th>

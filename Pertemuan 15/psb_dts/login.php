@@ -45,15 +45,10 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- My Icon -->
-    <link rel="shotcut icon" href="img/icon.png">
+    <link rel="shortcut icon"  href="img/kominfo.png" />
 
     <!-- My Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-    <!-- Bootstrap Font Awesome -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
-	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -71,11 +66,14 @@
             <img src="img/icon.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             Digitalent Online
             </a>
+            <form action="" class="d-flex gap-2">
+                <a class="btn btn-primary bi bi-window" href="index.php"> Halaman Utama</a>
+            </form>
         </div>
     </nav>
     
     <!-- Bagian main login -->
-    <div class="container pt-5">
+    <div class="container pt-5 mt-5">
     <div class="row">
       <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
         <div class="card border-0 shadow rounded-3 my-5">
@@ -156,7 +154,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

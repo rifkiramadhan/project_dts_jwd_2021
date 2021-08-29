@@ -1,3 +1,4 @@
+// Sweet Alert
 const confirmDeleteBarang = id => {
   Swal.fire({
     title: 'Apakah Anda ingin menghapus barang ini ?',
@@ -13,8 +14,3 @@ const confirmDeleteBarang = id => {
     }
   })
 };
-
-let tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-let tooltipList = tooltipTriggerList.map((tooltipTriggerEl) => {
-  return new bootstrap.Tooltip(tooltipTriggerEl)
-});

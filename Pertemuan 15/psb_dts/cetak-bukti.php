@@ -18,7 +18,7 @@
     <title>Cetak Bukti</title>
 
     <!-- My Icon -->
-    <link rel="shotcut icon" href="img/icon.png">
+    <link rel="shortcut icon"  href="img/kominfo.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -30,7 +30,18 @@
 </head>
 <body>
 
-    <div class="container mt-3 md-5">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="img/dts-kominfo.png" alt="" width="100px" class="d-inline-block align-text-top">
+            </a>
+            <form class="d-flex">
+                <img src="img/dts-vsga.png" alt="" width="100px" class="d-inline-block align-text-top">
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
         <div class="card-body d-flex align-items-center">
             <div class="col-md-5">
                 <img src="img/img1.svg" class="img-fluid rounded-start" alt="...">
@@ -108,7 +119,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

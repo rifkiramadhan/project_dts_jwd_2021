@@ -58,8 +58,10 @@ $ tb_admin
 1. Link: https://datatables.net/examples/basic_init/zero_configuration.html
 2. Link: https://datatables.net/examples/styling/bootstrap5.html
 
-- Cara Hosting Geratis
-1. Link: https://www.youtube.com/watch?v=bebAIPaEJtM&list=PLwc5D4ma310TBkIBvKh9tqizU9svje_0e&index=4
+- Hosting Project Data Siswa Peserta Digitalent
+1. Link: https://pnj-jwd-rifram.000webhostapp.com/
 
-- Cara Hosting Berbayar
-2. Link: https://www.youtube.com/watch?v=eQL12Oe_Y6s&list=PLwc5D4ma310TBkIBvKh9tqizU9svje_0e&index=5
+- Repository Full Project Pelatihan VSGA 2021
+1. Link: https://github.com/rifkiramadhan/project_dts_jwd_2021
+
+===============================================================

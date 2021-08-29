@@ -31,14 +31,10 @@
 
         <div class="icon mp-2 text-white">
             <h5>
-                <i class="bi bi-basket-fill m-3" data-bs-toggle="tooltip"
-                title="Keranjang Belanja"></i>
-                <i class="bi bi-messenger m-3" data-bs-toggle="tooltip"
-                title="Surat Masuk"></i> 
-                <i class="bi bi-bell-fill m-3" data-bs-toggle="tooltip"
-                title="Notifikasi"></i>
-                <i class="bi bi-box-arrow-right m-3" data-bs-toggle="tooltip"
-                title="Keluar"></i>
+                <i class="bi bi-basket-fill m-3" title="Keranjang Belanja"></i>
+                <i class="bi bi-messenger m-3" title="Surat Masuk"></i> 
+                <i class="bi bi-bell-fill m-3" title="Notifikasi"></i>
+                <i class="bi bi-box-arrow-right m-3" title="Keluar"></i>
              </h5>
         </div>
     </div>
@@ -65,7 +61,7 @@
                         <i class="bi bi-box-seam"></i>
                       </div>
                       <h5 class="card-title">JUMLAH Barang</h5>
-                      <div class="display-4">1.200</div>
+                      <div class="display-4">0</div>
                       <a href="" class=""><p class="card-text text-white text-decoration-none">Lihati Detail <i class="bi bi-chevron-double-right ml-2"></i></p></a>
                     </div>
                   </div>
@@ -76,7 +72,7 @@
                         <i class="bi bi-bar-chart-fill"></i>
                       </div>
                       <h5 class="card-title">JUMLAH Kurir</h5>
-                      <div class="display-4">58</div>
+                      <div class="display-4">0</div>
                       <a href="" class=""><p class="card-text text-white text-decoration-none">Lihati Detail <i class="bi bi-chevron-double-right ml-2"></i></p></a>
                     </div>
                   </div>
@@ -87,7 +83,7 @@
                         <i class="bi bi-bar-chart-line-fill"></i>
                       </div>
                       <h5 class="card-title">JUMLAH Admin</h5>
-                      <div class="display-4">21</div>
+                      <div class="display-4">0</div>
                       <a href="" class=""><p class="card-text text-white text-decoration-none">Lihati Detail <i class="bi bi-chevron-double-right ml-2"></i></p></a>
                     </div>
                   </div>

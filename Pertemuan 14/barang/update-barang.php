@@ -61,12 +61,10 @@
               <option value="Butterfly">Butterfly</option>
               <option value="Kenko">Kenko</option>
             </select>
-
-            <!-- <label for="suplier" class="form-label">Nama Suplier : </label>
-            <input type="text" class="form-control" name="nama-suplier" value="<?= $data['namaSuplier']; ?>" required><br> -->
+            
             <div class="d-flex gap-2">
                 <a class="btn btn-secondary" href="./index.php"><i class="bi bi-backspace-fill"></i> Kembali</a>
-                <input class="btn btn-success" type="submit" value="Simpan">
+                <button class="btn btn-success" type="submit" value="Simpan"><i class="bi bi-bookmark-plus"></i> Simpan</button>
             </div>
         </form>
     </div>

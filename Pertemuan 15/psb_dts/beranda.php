@@ -22,7 +22,7 @@
     <title>Digitalent Online</title>
 
     <!-- My Icon -->
-    <link rel="shotcut icon" href="img/icon.png">
+    <link rel="shortcut icon"  href="img/kominfo.png" />
 
     <!-- My Bootstrap Icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
@@ -54,6 +54,7 @@
 
     <!-- Bagian content -->
     <div class="container mt-5 mb-5 pt-5">
+        <h2 class="text-center pt-5">Beranda</h2>
         <div class="card-body d-flex align-items-center">
             <div class="col-md-3">
                 <img src="img/img3.svg" class="img-fluid rounded-start" alt="...">
@@ -135,7 +136,6 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

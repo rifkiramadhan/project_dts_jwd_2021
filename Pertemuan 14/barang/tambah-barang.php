@@ -47,7 +47,7 @@
           </select>
           <div class="d-flex gap-2">
               <a class="btn btn-secondary" href="./index.php"><i class="bi bi-backspace-fill"></i> Kembali</a>
-              <input class="btn btn-success" type="submit" value="Tambah">
+              <button class="btn btn-success" type="submit" value="Tambah"><i class="bi bi-bookmark-plus"></i> Tambah</button>
           </div>
        </form>
   </div>
