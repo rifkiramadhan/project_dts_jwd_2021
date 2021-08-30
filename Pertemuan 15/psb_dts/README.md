@@ -1,4 +1,5 @@
-# Studi Kasus => Sistem Pendaftaran Siswa Baru Online Sederhana (DTS VSGA)
+# Studi Kasus
+## Sistem Pendaftaran Siswa Baru Online Sederhana (DTS VSGA)
 
 ## Sumber Daya Pengembangan Aplikasi
 - [x] Frontend          : HTML dan CSS
@@ -27,7 +28,7 @@
 9. agama            | varchar (15)
 10. almt_peserta    | text
 
-$ tb_admin
+# tb_admin
 ===============================================================
 1. id_admin         | int (11) primary key auto increment
 2. nm_admin         | varchar (50)
