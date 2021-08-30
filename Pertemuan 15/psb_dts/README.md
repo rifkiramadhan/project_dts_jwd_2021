@@ -36,9 +36,9 @@
 4. password         | varchar (100)
 
 ## Format ID Pendaftaran P202000001
-- [x] P        : Singkatan dari pendaftaran
-- [x] 2020     : Tahung user mendaftar
-- [x] 00001    : Nomor urut pendaftaran
+- [x] P        	: Singkatan dari pendaftaran
+- [x] 2021     	: Tahun user mendaftar
+- [x] 1		: Nomor urut pendaftaran
 
 ## Format ID
 - [x] Format ID Admin 1, 2, 3, 4, ... dst
