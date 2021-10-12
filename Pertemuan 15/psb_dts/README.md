@@ -38,7 +38,7 @@
 ## Format ID Pendaftaran P202000001
 - [x] P        	: Singkatan dari pendaftaran
 - [x] 2021     	: Tahun user mendaftar
-- [x] 1		: Nomor urut pendaftaran
+- [x] 1		    : Nomor urut pendaftaran
 
 ## Format ID
 - [x] Format ID Admin 1, 2, 3, 4, ... dst

@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Membuat baris tabel cetak yang genap warnanya berbeda */
+tr:nth-child(even) {
+    background-color: #ddd;
+}

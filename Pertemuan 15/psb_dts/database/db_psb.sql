@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 26, 2021 at 09:45 PM
--- Server version: 10.4.17-MariaDB
--- PHP Version: 8.0.2
+-- Waktu pembuatan: 03 Okt 2021 pada 09.45
+-- Versi server: 10.4.21-MariaDB
+-- Versi PHP: 7.3.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -24,7 +24,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_admin`
+-- Struktur dari tabel `tb_admin`
 --
 
 CREATE TABLE `tb_admin` (
@@ -35,7 +35,7 @@ CREATE TABLE `tb_admin` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `tb_admin`
+-- Dumping data untuk tabel `tb_admin`
 --
 
 INSERT INTO `tb_admin` (`id_admin`, `nm_admin`, `username`, `password`) VALUES
@@ -44,7 +44,7 @@ INSERT INTO `tb_admin` (`id_admin`, `nm_admin`, `username`, `password`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `tb_pendaftaran`
+-- Struktur dari tabel `tb_pendaftaran`
 --
 
 CREATE TABLE `tb_pendaftaran` (
@@ -57,39 +57,32 @@ CREATE TABLE `tb_pendaftaran` (
   `tgl_lahir` date NOT NULL,
   `jk` enum('Laki-laki','Perempuan') NOT NULL,
   `agama` varchar(15) NOT NULL,
-  `almt_peserta` text NOT NULL
+  `almt_peserta` text NOT NULL,
+  `nilai` varchar(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `tb_pendaftaran`
---
-
-INSERT INTO `tb_pendaftaran` (`id_pendaftaran`, `tgl_daftar`, `th_ajaran`, `jurusan`, `nm_peserta`, `tmp_lahir`, `tgl_lahir`, `jk`, `agama`, `almt_peserta`) VALUES
-('p2021    1', '2021-08-26', '2020/2021', 'Teknik Listrik', 'Rifki Ramadhan', 'Kota Jakarta Selatan', '1999-01-06', 'Laki-laki', 'Islam', 'Jl. Pagujaten No. 26'),
-('p2021    5', '2021-08-26', '2020/2021', 'Teknik Las', 'Risyad Alfian', 'Kota Jakarta Selatan', '1999-01-06', 'Laki-laki', 'Islam', 'Jl. Pagujaten No. 26');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `tb_admin`
+-- Indeks untuk tabel `tb_admin`
 --
 ALTER TABLE `tb_admin`
   ADD PRIMARY KEY (`id_admin`);
 
 --
--- Indexes for table `tb_pendaftaran`
+-- Indeks untuk tabel `tb_pendaftaran`
 --
 ALTER TABLE `tb_pendaftaran`
   ADD PRIMARY KEY (`id_pendaftaran`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `tb_admin`
+-- AUTO_INCREMENT untuk tabel `tb_admin`
 --
 ALTER TABLE `tb_admin`
   MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;

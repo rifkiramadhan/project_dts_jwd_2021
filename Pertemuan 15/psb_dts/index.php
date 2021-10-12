@@ -1,3 +1,15 @@
+<?php
+    // Membuat session start agar sessionnya berjalan
+    session_start();
+    
+    // Jika tombol keluar tidak di klik, maka arahkan ke halaman beranda
+    if (isset($_SESSION["stat_login"]) ) {
+        header("Location: admin/beranda.php");
+    exit;
+    }
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -30,13 +42,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link bi bi-layout-text-sidebar" target="_blank" href="register.php"> Daftar Peserta</a></li>
-                        <li class="nav-item"><a class="nav-link bi bi-arrow-right-circle" target="_blank" href="login.php"> Login Admin</a></li>
+                        <li class="nav-item"><a class="nav-link bi bi-layout-text-sidebar" target="_blank" href="user/daftar-peserta.php"> Daftar Peserta</a></li>
+                        <li class="nav-item"><a class="nav-link bi bi-arrow-right-circle" target="_blank" href="admin/login.php"> Login Admin</a></li>
                         <li class="nav-item"><a class="nav-link bi bi-file-person-fill" target="_blank" href="https://bit.ly/Rifki-Portfolio"> About Me</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -44,13 +57,12 @@
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Digital Talent</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">Ayo, Raih masa depanmu dengan mengikuti pelatihan DTS Kominfo.</h2>
-                        <a class="btn btn-primary" href="register.php">Telusuri</a>
+                        <a class="btn btn-primary" href="user/register.php">Gabung</a>
                     </div>
                 </div>
             </div>
         </header>
        
-        
         <!-- Contact-->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
@@ -96,6 +108,7 @@
         
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Rifki Ramadhan 2021</div></footer>
+
         <!-- Bootstrap core JS-->
         <script src="js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
