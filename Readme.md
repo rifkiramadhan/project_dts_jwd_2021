@@ -11,7 +11,7 @@
 
 Tanggal : 29 Agustus 2021
 
-- [x] [Aplikasi Pendaftaran Siswa Peserta Digital Talent](https://pnj-jwd-rifram.000webhostapp.com/)
+- [x] [Aplikasi Pendaftaran Siswa Peserta Digital Talent](https://pnj-jwd-d-2021.000webhostapp.com)
 
 ## Pelatihan Pertemuan Ke 1
 

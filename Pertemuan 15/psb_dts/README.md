@@ -63,7 +63,7 @@
 - [x] [Data Tables Bootstrap 5](https://datatables.net/examples/styling/bootstrap5.html)
 
 ## Hosting Project Data Siswa Peserta Digitalent
-- [x] [Hosting Aplikasi](https://pnj-jwd-rifram.000webhostapp.com/)
+- [x] [Hosting Aplikasi](https://pnj-jwd-d-2021.000webhostapp.com)
 
 ## Repository Full Project Pelatihan VSGA 2021
 - [x] [Repository Project](https://github.com/rifkiramadhan/project_dts_jwd_2021)
